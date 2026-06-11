@@ -1,0 +1,6 @@
+project: sqlglot
+target: fuzz-lang
+cmds:
+  - cmd: /mayhem/fuzz-lang
+    libfuzzer: true
+    timeout: 30
